@@ -1,0 +1,18 @@
+{
+	"nodes":[
+		{"id":"b71f106d8a3c62df","x":-500,"y":0,"width":250,"height":60,"color":"6","type":"text","text":"Input ( Arquivo, texto etc)"},
+		{"id":"21c6944f55053884","x":-30,"y":-200,"width":250,"height":60,"color":"2","type":"text","text":"Arquivo"},
+		{"id":"d0be19f52ecb809d","x":300,"y":-360,"width":250,"height":60,"color":"5","type":"text","text":"Gemini Transcreve o Arquivo"},
+		{"id":"b386e293abfef98c","type":"text","text":"Texto","x":-30,"y":0,"width":250,"height":60,"color":"2"},
+		{"id":"06bda89f98bde736","x":620,"y":240,"width":250,"height":60,"color":"4","type":"text","text":"Procura Informações"},
+		{"id":"e7df60e268b7acb0","x":520,"y":-30,"width":250,"height":120,"color":"1","type":"text","text":"Perguntamos para o gemini se o tópico(s) está na lista de tópicos com fontes confiaveis"}
+	],
+	"edges":[
+		{"id":"06853cfd429c8992","fromNode":"b71f106d8a3c62df","fromSide":"right","toNode":"21c6944f55053884","toSide":"left"},
+		{"id":"a561dac99e9dedbd","fromNode":"21c6944f55053884","fromSide":"right","toNode":"d0be19f52ecb809d","toSide":"left"},
+		{"id":"236efdc5d74de2e8","fromNode":"b71f106d8a3c62df","fromSide":"right","toNode":"b386e293abfef98c","toSide":"left"},
+		{"id":"5c8481ac7d00f5c5","fromNode":"b386e293abfef98c","fromSide":"right","toNode":"e7df60e268b7acb0","toSide":"left"},
+		{"id":"12a2a6d6868999b0","fromNode":"d0be19f52ecb809d","fromSide":"right","toNode":"e7df60e268b7acb0","toSide":"top"},
+		{"id":"942734a1f5268e93","fromNode":"e7df60e268b7acb0","fromSide":"bottom","toNode":"06bda89f98bde736","toSide":"top","color":"4","label":"Sim"}
+	]
+}

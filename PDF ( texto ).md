@@ -7,6 +7,8 @@ Desinformação e Fake news são fáceis de ser espalhados, e acreditado, princi
 
 # A Solução
 
+## Ideias e Atualizações
+
 Primeira Ideia - 
     20 / 03 / 2026
     Um Site, que o usuário digita alguma informação, manda um link ou arquivo de um artigo. E um algortimo ( API_KEY do gemini com certas instruções) analisa essa informação, e mostra tanto informações rasas dela, como a vericade da informação, que coisas são reais, ou falsas, ou manipuladas. Ou até algo mais técnico, como o processo, fontes verifcadas e etc.
@@ -15,4 +17,14 @@ Primeira Ideia -
 Primeira Autalização
 	 O site também terá uma aba de fontes confiáveis, como G1, BBC.
 	 Ainda falta algo pra facilitar o acesso a informações verdadeiras, mas só na etapa regional.
+
+
+# Como funciona tecnicamente
+
+
+# Produção
+
+
+
+# Problemas
 
