@@ -11,10 +11,14 @@
             "id": "3452d451108a8a7b",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "obsidian/PDF ( texto ).md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Nova aba"
+              "title": "PDF ( texto )"
             }
           }
         ]
