@@ -1,24 +1,30 @@
 {
 	"nodes":[
 		{"id":"b71f106d8a3c62df","type":"text","text":"Input ( Arquivo, texto etc)","x":-500,"y":0,"width":250,"height":60,"color":"6"},
-		{"id":"21c6944f55053884","type":"text","text":"Arquivo","x":-30,"y":-200,"width":250,"height":60,"color":"2"},
-		{"id":"d0be19f52ecb809d","type":"text","text":"Gemini Transcreve o Arquivo","x":300,"y":-360,"width":250,"height":60,"color":"5"},
-		{"id":"b386e293abfef98c","type":"text","text":"Texto","x":-30,"y":0,"width":250,"height":60,"color":"2"},
-		{"id":"06bda89f98bde736","type":"text","text":"","x":660,"y":320,"width":250,"height":60,"color":"4"},
-		{"id":"bd7cd086c95a27e6","type":"text","text":"Há mais de um tópico sendo citado","x":535,"y":0,"width":250,"height":60,"color":"1"},
 		{"id":"719252b76e252aef","type":"text","text":"Tópico = Mais abragente","x":593,"y":-614,"width":250,"height":60,"color":"4"},
 		{"id":"26f0b6d2e0f6d7d2","type":"text","text":"Assunto = Exatamente doque estamos falando","x":593,"y":-520,"width":250,"height":60,"color":"4"},
-		{"id":"e7df60e268b7acb0","type":"text","text":"Perguntamos para o gemini se o tópico está na lista de tópicos com fontes confiaveis","x":1000,"y":-30,"width":250,"height":120,"color":"5"},
-		{"id":"23821a325b72d4a7","type":"text","text":".","x":635,"y":200,"width":50,"height":50,"color":"2"},
-		{"id":"87d57c46ba49cc3e","type":"text","text":"Gemini manda qual pesquisa deveremos fazer para saber mais sobre esse tópico","x":1001,"y":200,"width":250,"height":86,"color":"5"}
+		{"id":"ac3a9db57e647155","type":"text","text":"( Algo complexo)","x":2480,"y":340,"width":250,"height":60,"color":"2"},
+		{"id":"b386e293abfef98c","type":"text","text":"Texto","x":-60,"y":0,"width":250,"height":60,"color":"2"},
+		{"id":"bd7cd086c95a27e6","type":"text","text":"Há mais de um tópico sendo citado","x":440,"y":0,"width":250,"height":60,"color":"1"},
+		{"id":"e7df60e268b7acb0","type":"text","text":"Perguntamos para o gemini se o tópico está na lista de tópicos com fontes confiaveis ( um .json )","x":893,"y":-30,"width":250,"height":120,"color":"5"},
+		{"id":"87d57c46ba49cc3e","type":"text","text":"Gemini manda \"site: ( Fonte): ( Assunto )\", para a Serper API","x":859,"y":180,"width":319,"height":86,"color":"5"},
+		{"id":"074f5001ef565aa7","type":"text","text":"Serper API Manda Resultados da pesquisa ( Nome de artigos e descrição)","x":912,"y":311,"width":214,"height":118,"color":"4"},
+		{"id":"2377383e1212a4b8","type":"text","text":"Gemini manda lista de resultado(s) que se encaixam com oque precissa\n( Regras ainda a definir)","x":1240,"y":311,"width":250,"height":118,"color":"5"},
+		{"id":"19e0dfcb3feef19a","type":"text","text":"Serper Manda  o Contéudo, e o html ( se pedido)","x":1540,"y":335,"width":250,"height":68,"color":"4"},
+		{"id":"6a5e4bff3d80db63","type":"text","text":"Suficiente Para dar um veredito final?","x":1900,"y":200,"width":250,"height":60,"color":"1"},
+		{"id":"4b1981f7634cd595","type":"text","text":"( Algo complexo)","x":1900,"y":339,"width":250,"height":60,"color":"2"}
 	],
 	"edges":[
-		{"id":"06853cfd429c8992","fromNode":"b71f106d8a3c62df","fromSide":"right","toNode":"21c6944f55053884","toSide":"left"},
-		{"id":"a561dac99e9dedbd","fromNode":"21c6944f55053884","fromSide":"right","toNode":"d0be19f52ecb809d","toSide":"left"},
 		{"id":"236efdc5d74de2e8","fromNode":"b71f106d8a3c62df","fromSide":"right","toNode":"b386e293abfef98c","toSide":"left"},
-		{"id":"e631b975986333a5","fromNode":"d0be19f52ecb809d","fromSide":"right","toNode":"bd7cd086c95a27e6","toSide":"top"},
 		{"id":"2c78f266114b51d3","fromNode":"b386e293abfef98c","fromSide":"right","toNode":"bd7cd086c95a27e6","toSide":"left"},
 		{"id":"bce75bcc45baf805","fromNode":"bd7cd086c95a27e6","fromSide":"right","toNode":"e7df60e268b7acb0","toSide":"left","color":"1","label":"não"},
-		{"id":"bbc4ba180c6f19f6","fromNode":"e7df60e268b7acb0","fromSide":"bottom","toNode":"87d57c46ba49cc3e","toSide":"top","color":"4"}
+		{"id":"bbc4ba180c6f19f6","fromNode":"e7df60e268b7acb0","fromSide":"bottom","toNode":"87d57c46ba49cc3e","toSide":"top","color":"4","label":"sim"},
+		{"id":"bae74fd51853e83f","fromNode":"87d57c46ba49cc3e","fromSide":"bottom","toNode":"074f5001ef565aa7","toSide":"top"},
+		{"id":"6bec0d0ae4ec2121","fromNode":"074f5001ef565aa7","fromSide":"right","toNode":"2377383e1212a4b8","toSide":"left"},
+		{"id":"18fbecf37d9a54a5","fromNode":"2377383e1212a4b8","fromSide":"right","toNode":"19e0dfcb3feef19a","toSide":"left"},
+		{"id":"df2216e4277a174f","fromNode":"19e0dfcb3feef19a","fromSide":"right","toNode":"4b1981f7634cd595","toSide":"left"},
+		{"id":"fb0cb975a89ff431","fromNode":"4b1981f7634cd595","fromSide":"top","toNode":"6a5e4bff3d80db63","toSide":"bottom"},
+		{"id":"809036d51c88e06b","fromNode":"6a5e4bff3d80db63","fromSide":"left","toNode":"2377383e1212a4b8","toSide":"top","color":"1","label":"não"},
+		{"id":"35294a004168d3fd","fromNode":"6a5e4bff3d80db63","fromSide":"right","toNode":"ac3a9db57e647155","toSide":"left","color":"4","label":"sim"}
 	]
 }
