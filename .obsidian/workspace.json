@@ -11,17 +11,38 @@
             "id": "3452d451108a8a7b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "obsidian/PDF ( texto ).md",
-                "mode": "source",
-                "source": false
+                "file": "obsidian/Code.canvas",
+                "viewState": {
+                  "x": 2215.278013544256,
+                  "y": 368.5999111084507,
+                  "zoom": 1
+                }
               },
-              "icon": "lucide-file",
-              "title": "PDF ( texto )"
+              "icon": "lucide-layout-dashboard",
+              "title": "Code"
+            }
+          },
+          {
+            "id": "225238626d373945",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "obsidian/Code.canvas",
+                "viewState": {
+                  "x": 2440.5217150626854,
+                  "y": 364.4432347965308,
+                  "zoom": -0.9444443671791678
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "Code"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -78,7 +99,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "3616c67d7a139613",
@@ -180,13 +201,17 @@
       "bases:Criar nova base": false
     }
   },
-  "active": "3452d451108a8a7b",
+  "active": "225238626d373945",
   "lastOpenFiles": [
-    "PDF ( texto ).md",
-    "obsidian/PDF ( texto ).md",
+    "obsidian/Rules And Instrutictions/Verify Text Instruction.md",
     "obsidian/Code.canvas",
+    "obsidian/TextPDF.md",
+    "obsidian/Rules And Instrutictions",
+    "obsidian/PDF(texto).md",
+    "obsidian/PDF ( texto ).md",
+    "README.md",
+    "PDF ( texto ).md",
     "obsidian",
-    "Code.canvas",
-    "README.md"
+    "Code.canvas"
   ]
 }
