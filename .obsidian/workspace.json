@@ -28,17 +28,14 @@
             "id": "225238626d373945",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "obsidian/Code.canvas",
-                "viewState": {
-                  "x": 702.1041153299761,
-                  "y": 256.99482786542694,
-                  "zoom": -0.9444443671791678
-                }
+                "file": "obsidian/Rules And Instrutictions/Verify Text Instruction.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Code"
+              "icon": "lucide-file",
+              "title": "Verify Text Instruction"
             }
           }
         ],
@@ -203,8 +200,8 @@
   },
   "active": "225238626d373945",
   "lastOpenFiles": [
-    "obsidian/Rules And Instrutictions/Verify Text Instruction.md",
     "obsidian/Code.canvas",
+    "obsidian/Rules And Instrutictions/Verify Text Instruction.md",
     "obsidian/TextPDF.md",
     "obsidian/Rules And Instrutictions",
     "obsidian/PDF(texto).md",
