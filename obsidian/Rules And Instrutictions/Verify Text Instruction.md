@@ -15,7 +15,6 @@ Based on this information, classify it according to the criteria below:
 Rules -
 
 If 2 is true, then: NO
-If 3 is true, then: NO
 If it is not possible to verify, then: NPC (Not possible to confirm)
 If 1 and 2 are true: YES
 If 1 and 4 are true: YES
