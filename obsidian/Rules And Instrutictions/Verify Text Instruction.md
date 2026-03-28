@@ -12,16 +12,17 @@ Based on this information, classify it according to the criteria below:
 
 5 - True if it is NOT basic information, universally established; if investigated it may be misinformation; if it was not OBVIOUS.
 
-Rules -
-
-If 2 is true, then: NO
-If it is not possible to verify, then: NPC (Not possible to confirm)
-If 1 and 2 are true: YES
-If 1 and 4 are true: YES
-If 1 is true, and 5 is false: CA (Commonly Accepted)
-If 3 is true, then: OP (Opinion)
-None of these: No
+Rules (in order of priority):
+If 2 is true → NO
+If 3 is true → OP
+If 1 is false → NPC
+If 1 and 4 are true → YES
+If 1 is true and 5 is false → CA
+If 1 and 5 are true → YES
+Otherwise → NO
 
 (If more than one piece of information is cited, the greater weight goes to YES, that is, if there is ONE piece of information with YES, the answer should be YES)
 
 ONLY return these answers, without additional text: YES, NO, OP, NPC, CA
+
+and, separe with ";" a messange: "true" or "false", false if the text have two or more informations.
