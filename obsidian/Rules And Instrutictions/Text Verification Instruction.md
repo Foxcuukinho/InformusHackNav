@@ -23,6 +23,13 @@ Otherwise → NO
 
 (If more than one piece of information is cited, the greater weight goes to YES, that is, if there is ONE piece of information with YES, the answer should be YES)
 
-ONLY return these answers, without additional text: YES, NO, OP, NPC, CA
+f the answer is YES, append ";true" if the text contains a single claim, or ";false" if it contains two or more claims. 
 
-and, separe with ";" a messange: "true" or "false", false if the text have two or more informations.
+ONLY return the answer with no extra text. 
+
+Examples: 
+
+"Aliens built the pyramids, but they don't know!" -  YES;false
+ "Aliens built the pyramids." - YES;true
+ "Pizza is delicious." - OP 
+  "" - NO
