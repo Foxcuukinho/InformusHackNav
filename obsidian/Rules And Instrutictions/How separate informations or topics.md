@@ -1,20 +1,16 @@
-
 Analyze the text: "<text>"
 
-	Topic / Information is defined by its sense, and by:
+A topic/information is defined by its meaning, and can be:
 
-	- a fact
-	- a question
-	  
+- a fact
+- a question
 
-Stop making the instructions below this text if: The text dont's contains two or more topics or informations.
+If the text contains only one topic, return ONLY: { "topics": [] }
 
-examples:
+If the text contains two or more topics, identify and separate each one, then return ONLY a JSON like this, with no extra text: { "topics": [ "First topic here", "Second topic here" ] }
 
-	 Aliens  built the pyramids, but they don't know! -  yes, two topics/information
-	 
-	 Aliens built the pyramids. - no, only topic.
-	 
+Examples:
 
- 
-Separe the facts,
+"Aliens built the pyramids, but they don't know!" → { "topics": [ "Aliens built the pyramids", "They don't know about it" ] }
+
+"Aliens built the pyramids." → { "topics": [] }
