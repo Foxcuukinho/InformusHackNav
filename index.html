@@ -34,15 +34,15 @@
     .subtitle {
       font-family: 'Roboto Mono', monospace;
       font-size: 12px;
-      color: rgb(235, 235, 235);
+      color: rgb(98, 115, 123);
       margin-bottom: 30px;
-      margin-top: 5px;
+      margin-top: 0px;
       font-weight: 300;
       text-align: center;
     }
 
     textarea {
-      width: 400px;
+      width: 300px;
       height: 100px;
       background-color: #1c1c1c;
       border: 2px solid #444;
@@ -50,6 +50,7 @@
       color: rgb(235, 235, 235);
       font-family: 'Roboto Mono', monospace;
       font-size: 12px;
+      margin-bottom: 12px;
     }
 
     textarea::placeholder {
@@ -59,6 +60,21 @@
     .input {
         text-align: center;
     }
+
+    p {
+
+       font-family: "Roboto Mono";
+	}
+
+    #sandbox {
+       color: rgb(109, 135, 133);
+       font-style: italic;
+	}
+
+    #return {
+      display: flex;
+      gap: 20px;
+	}
   </style>
 </head>
 <body>
@@ -71,10 +87,18 @@
   <div class="input">
     <textarea placeholder="Digite algum fato aqui!">
 
-    </textarea></div>
+    </textarea>
+   </div>
 
     <hr>
 
-    <h1> Sandbox Area:</h1>
+    <p id="sandbox"> Sandbox Area </p>
+
+
+   <div id="return">	
+	<h2>Veracidade</h2>
+	<br>
+	<h2>X</h2>
+   </div>
 </body>
 </html>
