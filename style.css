@@ -16,7 +16,7 @@ body {
     }
     .menu {
       font-family: 'Outfit', sans-serif;
-      font-size: 2.5rem;
+      font-size: 2.7rem;
       font-weight: 700;
       margin-bottom: 0px;
       text-align: center;
@@ -26,9 +26,11 @@ body {
       color: #5b7fa6;
     }
 
+
+
     .subtitle {
       font-family: 'Roboto Mono', monospace;
-      font-size: 10px;
+      font-size: 12px;
       color: rgb(145, 145, 145);
       margin-bottom: 30px;
       margin-top: 0px;
@@ -59,13 +61,13 @@ body {
     p {
 
        font-family: 'Open Sans';
-       font-size: 13px;
+       font-size: 15px;
 	}
 
     #sandbox {
        color: rgb(139, 139, 139);
        font-style: italic;
-       font-size: 12px ;
+       font-size: 14px ;
 	}
 
     h2, h3 {
@@ -106,4 +108,4 @@ body {
       width: 75vh;
     }
 
-    
+
